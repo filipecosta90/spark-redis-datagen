@@ -40,6 +40,6 @@ choices_list = [
 for i in range(0, args.records):
     row = [
         ("col{}".format(colnumber), random.choice(choices_list))
-        for colnumber in range(0, args.columns)
+        for colnumber in range(args.columns)
     ]
     writer.writerow(dict(row))
