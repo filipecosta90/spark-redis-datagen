@@ -1,3 +1,10 @@
+#generated files
+*.csv
+*.parquet
+
+# idea project folder
+.idea
+
 # General
 .DS_Store
 .AppleDouble
